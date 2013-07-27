@@ -232,3 +232,18 @@ ul.answers-list {
     }
   }
 }
+
+.question-form-wrapper {
+  margin-top: 15px;
+  margin-bottom: 50px;
+
+  h1 {
+    color: #666;
+    font-size: 25px;
+    line-height: 25 * 2px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+}

@@ -156,3 +156,13 @@ ul.answers-list {
       .copyleft .links span a:hover {
         text-decoration: none;
         color: #777; }
+
+.question-form-wrapper {
+  margin-top: 15px;
+  margin-bottom: 50px; }
+  .question-form-wrapper h1 {
+    color: #666;
+    font-size: 25px;
+    line-height: 50px; }
+  .question-form-wrapper textarea {
+    height: 150px; }
