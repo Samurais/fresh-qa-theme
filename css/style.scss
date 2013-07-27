@@ -18,7 +18,7 @@ $triangle-size: 12px;
 }
 
 body {
-  background-color: #efefef;
+  background-color: #faf9f4;
 }
 
 .arrow {
@@ -41,7 +41,7 @@ body {
 
   .in {
     bottom: 0;
-    border-bottom-color: #efefef;
+    border-bottom-color: #faf9f4;
   }
 }
 
@@ -170,6 +170,7 @@ ul.answers-list {
     }
 
     .content {
+      margin-top: 10px;
       padding-bottom: $triangle-size;
     }
 

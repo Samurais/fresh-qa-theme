@@ -2,7 +2,7 @@
   display: none; }
 
 body {
-  background-color: #efefef; }
+  background-color: #faf9f4; }
 
 .arrow .in, .arrow .out {
   width: 0;
@@ -20,7 +20,7 @@ body {
   border-bottom-color: #fff; }
 .arrow .in {
   bottom: 0;
-  border-bottom-color: #efefef; }
+  border-bottom-color: #faf9f4; }
 
 .meta {
   display: flex;
@@ -120,6 +120,7 @@ ul.answers-list {
         font-size: .85em;
         line-height: 17.85px; }
     ul.answers-list .answer .content {
+      margin-top: 10px;
       padding-bottom: 12px; }
     ul.answers-list .answer.form {
       min-height: 150px; }
