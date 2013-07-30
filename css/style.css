@@ -171,3 +171,25 @@ ul.answers-list {
     line-height: 50px; }
   .question-form-wrapper textarea {
     height: 150px; }
+
+.signup .logo, .validate .logo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 50px; }
+  .signup .logo .slogan, .validate .logo .slogan {
+    font-weight: 400; }
+.signup .body .hints, .signup .body .notes, .validate .body .hints, .validate .body .notes {
+  font-size: 12px;
+  line-height: 18px;
+  color: #999; }
+.signup .body .notes, .validate .body .notes {
+  margin-top: 10px;
+  margin-left: 43px; }
+.signup .form label.control-label, .validate .form label.control-label {
+  margin-right: 15px;
+  width: 30px;
+  display: block; }
+.signup .form .controls, .validate .form .controls {
+  margin-left: 0; }
+.signup .form .form-submit, .validate .form .form-submit {
+  margin-left: 45px; }

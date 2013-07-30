@@ -248,3 +248,44 @@ ul.answers-list {
     height: 150px;
   }
 }
+
+.signup, .validate {
+  .logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+
+    .slogan {
+      font-weight: 400;
+    }
+  }
+
+  .body {
+    .hints, .notes {
+      font-size: 12px;
+      line-height: 12 * 1.5px;
+      color: #999;
+    }
+
+    .notes {
+      margin-top: 10px;
+      margin-left: 43px;
+    }
+  }
+
+  .form {
+    label.control-label {
+      margin-right: 15px;
+      width: 30px;
+      display: block;
+    }
+
+    .controls {
+      margin-left: 0;
+    }
+
+    .form-submit {
+      margin-left: 45px;
+    }
+  }
+}
