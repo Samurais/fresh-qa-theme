@@ -11,7 +11,19 @@ ul {
 /* elements */
 /* sections */
 #header-pic {
-  height: 250px; }
+  min-height: 400px;
+  position: relative;
+  background: 75% 5% no-repeat url("../imgs/bg-5.jpg"); }
+  #header-pic .logo {
+    position: absolute;
+    margin: -75px;
+    padding: 0;
+    top: 60%;
+    left: 50%;
+    width: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: #fefefe; }
 
 #intro {
   min-height: 250px;
@@ -65,7 +77,14 @@ ul {
         line-height: 80px;
         text-shadow: 1px 0 0 rgba(0, 0, 0, 0.1); }
         #faq-list .list .q .title .toggle {
-          margin: 0 10px; }
+          -webkit-transition: color 0.2s linear;
+          -moz-transition: color 0.2s linear;
+          -o-transition: color 0.2s linear;
+          transition: color 0.2s linear;
+          margin: 0 10px;
+          color: #006abf; }
+      #faq-list .list .q:hover .toggle {
+        color: #0078d8; }
     #faq-list .list .a {
       min-height: 120px;
       padding: 15px 5px 5px;
@@ -75,6 +94,10 @@ ul {
         font-size: 16px;
         line-height: 24px;
         color: #555555; }
+    #faq-list .list .open .q .toggle {
+      color: #626262; }
+    #faq-list .list .open .q:hover .toggle {
+      color: #555555; }
     #faq-list .list .open .a {
       display: block;
       background-color: #f6f6f6;
